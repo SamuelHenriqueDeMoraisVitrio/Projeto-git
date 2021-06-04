@@ -13,7 +13,14 @@ body{
 }
 
 main{
-    width: 50em;
+    width: 65em;
     margin: 0px auto 0px auto;
     background-color: #d2c100a4;
+    padding: 0.1em 2em 0.1em 2em;
+    box-shadow: .7em .7em .2em #64015cd8;
+}
+
+h1{
+    font-size: 2.8em;
+    color: #130f92d2;
 }
