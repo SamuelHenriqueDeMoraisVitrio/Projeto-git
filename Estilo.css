@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'titulo';
+    src: url(Fonte/Noto_Sans_JP/NotoSansJP-Black.otf);
+}
+
+*{
+    font-family: titulo;
+}
+
+body{
+    background-color: #8F0082;
+}
+
+main{
+    width: 65em;
+    margin: 0px auto 0px auto;
+    background-color: #d2c100a4;
+    padding: 0.1em 2em 0.1em 2em;
+    box-shadow: .7em .7em .2em #64015cd8;
+}
+
+h1{
+    font-size: 2.8em;
+    color: #130f92d2;
+}
