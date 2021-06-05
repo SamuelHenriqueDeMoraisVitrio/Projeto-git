@@ -24,3 +24,7 @@ h1{
     font-size: 2.8em;
     color: #130f92d2;
 }
+
+div#text2{
+    opacity: 0;
+}
