@@ -25,6 +25,22 @@ h1{
     color: #130f92d2;
 }
 
+input{
+    box-shadow: .3em .3em .5em #6b62008c;
+}
+
+input.numero{
+    width: 8em;
+}
+
+input.botao{
+    background-color: #130f92a9;
+}
+
 div#text2{
+    opacity: 0;
+}
+
+div#text2 input#fim{
     opacity: 0;
 }
