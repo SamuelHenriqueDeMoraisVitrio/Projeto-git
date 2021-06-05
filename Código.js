@@ -28,14 +28,14 @@ const cha2 = () => {
     if(valorEscolhido > numMax1){
         alert('Valor invalido')
     }else{
-    fora:{
+    fora1:{
         if(valoresDaSorte.length != 0){
             for (const i in valoresDaSorte) {
                 if(valorEscolhido != valoresDaSorte[i]){
                     continue
                 }else{
                     alert('Tente outro numero.')
-                    break fora
+                    break fora1
                 }
             }
         }
@@ -48,18 +48,18 @@ const cha3 = () => {
     texto2.style.opacity = '0'
     let aleatorio = Math.floor(Math.random() * this.numMax1)
     let val = false
-    for (let c = 0; c < valoresDaSorte; c++) {
-        if(valoresDaSorte[c] == sorte){
-            val = true
+        for (let c = 0; c < valoresDaSorte.length; c++) {
+            if(valoresDaSorte[c] == aleatorio){
+                val = true
+            }
         }
-    }
-    if(val == true){
+    if(val){
         texto3.innerHTML = `<h2>SORTE</h2><br/>`
     }else{
-        texto3.innerHTML = `<h2>AZAR</h2><br/>`
+        texto3.innerHTML += `<h2>AZAR</h2><br/>`
     }
     for (let c = 0; c < valoresDaSorte.length; c++) {
         texto3.innerHTML += `Numero escolhido ${valoresDaSorte[c]}<br/>`
     }
-    texto3.innerHTML += `Numero da sorte ${aleatorio}`
+    texto3.innerHTML += `<br/>Numero da sorte ${aleatorio}`
 }
