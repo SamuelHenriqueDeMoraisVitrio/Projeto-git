@@ -1,3 +1,3 @@
 # Testando o **git**
 ***
-Aprendendo **git** e **JS**, com este projeto.
+Aprendendo **git** e **JS**, com este projeto simples.
